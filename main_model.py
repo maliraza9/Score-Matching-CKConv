@@ -126,7 +126,7 @@ class CSDI_base(nn.Module):
 
         # total_params = sum(p.numel() for p in self.diffmodel.parameters())
         # print(f"Number of parameters: {total_params}")
-        # input("wait")
+
         predicted = self.diffmodel(total_input, side_info, t)  # (B,K,L)
 
         target_mask = observed_mask - cond_mask
@@ -187,8 +187,6 @@ class CSDI_base(nn.Module):
                         (1.0 - self.alpha[t - 1]) / (1.0 - self.alpha[t]) * self.beta[t]
                     ) ** 0.5
                     current_sample += sigma * noise
-                # print("current_sample shape is ", current_sample.shape)
-                # print("imputed_samples shape is ", imputed_samples.shape)
 
             imputed_samples[:, i] = current_sample.detach()
         return imputed_samples
