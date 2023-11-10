@@ -1,5 +1,5 @@
 # CSDI
-This is the github repository for the NeurIPS 2021 paper "[CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation](https://arxiv.org/abs/2107.03502)".
+This is the github repository for CSDI-CKConv framework implementation of the thesis Score Matching for Irregularly Sampled Time Series.
 
 ## Requirement
 
@@ -36,17 +36,4 @@ python exe_pm25.py --nsample [number of samples]
 'visualize_examples.ipynb' is a notebook for visualizing results.
 
 ## Acknowledgements
-
-A part of the codes is based on [BRITS](https://github.com/caow13/BRITS) and [DiffWave](https://github.com/lmnt-com/diffwave)
-
-## Citation
-If you use this code for your research, please cite our paper:
-
-```
-@inproceedings{tashiro2021csdi,
-  title={CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation},
-  author={Tashiro, Yusuke and Song, Jiaming and Song, Yang and Ermon, Stefano},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2021}
-}
-```
+This codes builds on [CKConv](https://github.com/dwromero/ckconv), [CSDI](https://github.com/ermongroup/CSDI) and [DiffWave](https://github.com/lmnt-com/diffwave)
