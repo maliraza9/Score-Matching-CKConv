@@ -1,4 +1,4 @@
-# CSDI
+# CSDI-CKConv Framework Implementation of Score Matching for Irregularly Sampled Time Series
 This is the github repository for CSDI-CKConv framework implementation of the thesis Score Matching for Irregularly Sampled Time Series.
 
 ## Requirement
