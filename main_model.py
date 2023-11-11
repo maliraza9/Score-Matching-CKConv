@@ -124,6 +124,7 @@ class CSDI_base(nn.Module):
         total_input = self.set_input_to_diffmodel(noisy_data, observed_data, cond_mask)
         predicted = self.diffmodel(total_input, side_info, t)  # (B,K,L)
 
+        # To check the total number of parameters created:
         # total_params = sum(p.numel() for p in self.diffmodel.parameters())
         # print(f"Number of parameters: {total_params}")
 

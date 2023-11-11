@@ -30,12 +30,6 @@ num_train = (int)(len(SL) * 0.7)  # assumes num_train is less than last index of
 train_index = remain_index[:num_train] # returns indices from non_test_deleted index from original Dataset SL
 valid_index = remain_index[num_train:] # returns indices from non_test_deleted index from original Dataset SL
 #
-# print("remain_index length is ", len(remain_index))
-# print("train index is ", len(train_index))
-# print("val index is ", len(valid_index))
-# print("test index is ", len(test_index))
-
-
 
 """
 some observed_values should be marked as isnan randomly.
@@ -44,18 +38,12 @@ depending on fold: folds available for each row: 1024 folds
 
 set fold values as 0
 
-
-
-
 """
 observed_values = SL[1]
 missing_ratio = 0.1 #for gt value assignment
 maskNan = 0.4
 
 observed_masks = np.ones(observed_values.shape)
-print("observed mask shape is ", observed_masks.shape)
-
-
 
 # randomly set some percentage as ground-truth
 
@@ -63,7 +51,7 @@ masks = observed_masks.reshape(-1).copy()
 
 obs_indices = masks.tolist()
 
-print(len(obs_indices))
+# Optionally: use other strategies for randomness in missing:
 # miss_indices = np.random.choice(
 #     obs_indices, (int)(len(obs_indices) * missing_ratio), replace=False
 # )
