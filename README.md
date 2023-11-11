@@ -2,17 +2,12 @@
 This is the github repository for CSDI-CKConv framework implementation of the thesis Score Matching for Irregularly Sampled Time Series.
 
 
-![img_6.png](img_6.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
-![img_1.png](img_1.png)
-![img.png](img.png)
-
-
-
-
-
+<img src="layer_config.png" width="290" height="200">
+<img src="crps_comparison.png" width="290" height="200">
+<img src="rmse_comparison.png" width="290" height="200">
+<img src="mae_comparison.png" width="290" height="200">
+<img src="crps_mae_attn_comparison.png" width="290" height="200">
+<img src="crps_mae_ckconv_comparison.png" width="290" height="200">
 
 
 
