@@ -2,7 +2,7 @@
 This is the github repository for CSDI-CKConv framework implementation of the thesis "Score Matching for Irregularly Sampled Time Series".
 
 
-<img src="layer_config.png" width="290" height="170">
+<img src="Images/layer_config.png" width="290" height="170">
 
 <img src="crps_comparison.png" width="350" height="170">
 
