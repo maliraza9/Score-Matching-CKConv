@@ -4,15 +4,15 @@ This is the github repository for CSDI-CKConv framework implementation of the th
 
 <img src="layer_config.png" width="290" height="170">
 
-<img src="crps_comparison.png" width="290" height="170">
+<img src="crps_comparison.png" width="350" height="170">
 
-<img src="rmse_comparison.png" width="290" height="170">
+<img src="rmse_comparison.png" width="350" height="170">
 
-<img src="mae_comparison.png" width="290" height="170">
+<img src="mae_comparison.png" width="350" height="170">
 
-<img src="crps_mae_attn_comparison.png" width="290" height="170">
+<img src="crps_mae_attn_comparison.png" width="350" height="170">
 
-<img src="crps_mae_ckconv_comparison.png" width="290" height="170">
+<img src="crps_mae_ckconv_comparison.png" width="350" height="170">
 
 
 ## Requirement
