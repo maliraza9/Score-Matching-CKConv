@@ -1,6 +1,8 @@
 # CSDI-CKConv Framework Implementation of Score Matching for Irregularly Sampled Time Series
-This is the github repository for CSDI-CKConv framework implementation of the thesis "Score Matching Generative Models for Irregularly Sampled Time Series".
+This is the github repository for CSDI-CKConv framework implementation of the Master in AI thesis at KU Leuven:
 
+Score Matching Generative Models for Irregularly Sampled Time Series
+Link: https://drive.google.com/file/d/1GCy80GtwUmEq1RmZXYzwue9zAZxes68n/view?usp=sharing 
 
 <img src="Images/layer_config.png" width="290" height="170">
 
